@@ -1,4 +1,4 @@
-
+FROM sillelien/base-alpine:0.9.2
 # ENV VERSION=v0.10.40 CMD=node DOMAIN=nodejs.org CFLAGS="-D__USE_MISC"
 # ENV VERSION=v0.12.7 CMD=node DOMAIN=nodejs.org
 ENV VERSION=v3.0.0 CMD=iojs DOMAIN=iojs.org NO_NPM_UPDATE=true
